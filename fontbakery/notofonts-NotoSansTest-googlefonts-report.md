@@ -38,7 +38,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[12] NotoSansTest-Regular.ttf</summary>
+<details><summary>[11] NotoSansTest-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
@@ -104,27 +104,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
  [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the noto project authors (<a href="https://github.com/notofonts/noto-project-template">https://github.com/notofonts/noto-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
 
 
 
@@ -1215,8 +1194,8 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0020 SPACE: try adding one of: tifinagh, anatolian-hieroglyphs, brahmi, cyrillic, gunjala-gondi, kharoshthi, bengali, meetei-mayek, wancho, cypro-minoan, gujarati, tai-le, bamum, ahom, mandaic, dogra, runic, deseret, hatran, chinese-simplified, siddham, gothic, gurmukhi, syloti-nagri, mro, kannada, vithkuqi, manichaean, tagbanwa, marchen, znamenny, ugaritic, javanese, old-south-arabian, malayalam, japanese, old-sogdian, latin-ext, elbasan, thaana, carian, medefaidrin, signwriting, coptic, inscriptional-parthian, tangsa, math, mayan-numerals, mende-kikakui, music, lycian, warang-citi, old-turkic, batak, cherokee, miao, sora-sompeng, nushu, kawi, rejang, syriac, chorasmian, braille, pau-cin-hau, hanifi-rohingya, dives-akuru, lydian, mahajani, newa, grantha, buginese, indic-siyaq-numbers, greek, sundanese, tangut, yi, cham, thai, phoenician, osage, duployan, lisu, avestan, devanagari, ol-chiki, inscriptional-pahlavi, ottoman-siyaq-numbers, soyombo, telugu, tamil-supplement, multani, vietnamese, new-tai-lue, takri, symbols, sinhala, buhid, tagalog, kana-extended, old-uyghur, old-persian, hanunoo, arabic, tai-viet, georgian, osmanya, linear-a, glagolitic, ethiopic, adlam, nko, makasar, tirhuta, bassa-vah, tibetan, old-north-arabian, tamil, mongolian, latin, sharada, sogdian, tai-tham, modi, chinese-hongkong, meroitic-hieroglyphs, nyiakeng-puachue-hmong, cuneiform, pahawh-hmong, old-italic, psalter-pahlavi, armenian, palmyrene, balinese, meroitic, ogham, vai, khitan-small-script, masaram-gondi, oriya, greek-ext, bhaiksuki, egyptian-hieroglyphs, samaritan, yezidi, cypriot, toto, imperial-aramaic, khudawadi, lepcha, meroitic-cursive, lao, linear-b, myanmar, old-permic, chakma, nandinagari, cyrillic-ext, kaithi, hebrew, limbu, nabataean, caucasian-albanian, nag-mundari, old-hungarian, zanabazar-square, korean, khojki, elymaic, phags-pa, kayah-li, canadian-aboriginal, chinese-traditional, shavian, saurashtra</li>
-<li>U+00A0 NO-BREAK SPACE: try adding one of: tifinagh, anatolian-hieroglyphs, brahmi, cyrillic, gunjala-gondi, kharoshthi, bengali, meetei-mayek, wancho, cypro-minoan, gujarati, tai-le, bamum, ahom, mandaic, dogra, runic, deseret, hatran, chinese-simplified, siddham, gothic, gurmukhi, syloti-nagri, mro, kannada, vithkuqi, manichaean, tagbanwa, marchen, znamenny, ugaritic, javanese, old-south-arabian, malayalam, japanese, old-sogdian, latin-ext, elbasan, thaana, carian, medefaidrin, signwriting, coptic, inscriptional-parthian, tangsa, math, mayan-numerals, mende-kikakui, music, lycian, warang-citi, old-turkic, batak, cherokee, miao, sora-sompeng, nushu, kawi, rejang, syriac, chorasmian, braille, pau-cin-hau, hanifi-rohingya, dives-akuru, lydian, mahajani, newa, grantha, buginese, indic-siyaq-numbers, greek, sundanese, tangut, yi, cham, thai, phoenician, osage, duployan, lisu, avestan, devanagari, ol-chiki, inscriptional-pahlavi, ottoman-siyaq-numbers, soyombo, telugu, tamil-supplement, multani, vietnamese, new-tai-lue, takri, symbols, sinhala, buhid, tagalog, kana-extended, old-uyghur, old-persian, hanunoo, arabic, tai-viet, georgian, osmanya, linear-a, glagolitic, ethiopic, adlam, nko, makasar, tirhuta, bassa-vah, tibetan, old-north-arabian, tamil, mongolian, latin, sharada, sogdian, tai-tham, modi, chinese-hongkong, meroitic-hieroglyphs, nyiakeng-puachue-hmong, cuneiform, pahawh-hmong, old-italic, psalter-pahlavi, armenian, palmyrene, balinese, meroitic, ogham, vai, khitan-small-script, masaram-gondi, oriya, greek-ext, bhaiksuki, egyptian-hieroglyphs, samaritan, yezidi, cypriot, toto, imperial-aramaic, khudawadi, lepcha, meroitic-cursive, lao, linear-b, myanmar, old-permic, chakma, nandinagari, cyrillic-ext, kaithi, hebrew, limbu, nabataean, caucasian-albanian, nag-mundari, old-hungarian, zanabazar-square, korean, khojki, elymaic, phags-pa, kayah-li, canadian-aboriginal, chinese-traditional, shavian, saurashtra</li>
+<li>U+0020 SPACE: try adding one of: yi, ol-chiki, palmyrene, saurashtra, georgian, tai-viet, meroitic-hieroglyphs, telugu, math, bengali, old-sogdian, runic, vithkuqi, warang-citi, pahawh-hmong, oriya, samaritan, latin, hebrew, nabataean, znamenny, ugaritic, egyptian-hieroglyphs, javanese, makasar, nandinagari, siddham, coptic, pau-cin-hau, japanese, elbasan, mongolian, tai-tham, mahajani, kannada, mro, ogham, tamil-supplement, lycian, brahmi, newa, armenian, duployan, medefaidrin, bamum, cyrillic, kharoshthi, carian, sharada, soyombo, rejang, mandaic, phags-pa, arabic, symbols, gothic, syloti-nagri, chinese-traditional, cypriot, tagbanwa, psalter-pahlavi, osage, inscriptional-parthian, lao, cuneiform, kaithi, hanunoo, linear-b, dives-akuru, khudawadi, latin-ext, korean, linear-a, meroitic, shavian, manichaean, avestan, kana-extended, cham, meetei-mayek, nko, old-italic, tibetan, braille, old-south-arabian, grantha, tifinagh, zanabazar-square, tagalog, cypro-minoan, chinese-simplified, modi, old-persian, sinhala, old-north-arabian, ahom, old-permic, bassa-vah, meroitic-cursive, toto, wancho, devanagari, miao, ethiopic, khojki, old-hungarian, nyiakeng-puachue-hmong, inscriptional-pahlavi, lydian, masaram-gondi, tirhuta, buginese, cherokee, thaana, mayan-numerals, mende-kikakui, khitan-small-script, bhaiksuki, tangut, dogra, chakma, limbu, buhid, greek, lepcha, deseret, kayah-li, tamil, balinese, hanifi-rohingya, malayalam, nushu, canadian-aboriginal, vietnamese, old-turkic, ottoman-siyaq-numbers, glagolitic, phoenician, signwriting, vai, batak, syriac, chorasmian, kawi, tai-le, caucasian-albanian, hatran, elymaic, myanmar, music, nag-mundari, sundanese, gunjala-gondi, takri, anatolian-hieroglyphs, new-tai-lue, indic-siyaq-numbers, sogdian, chinese-hongkong, gujarati, osmanya, imperial-aramaic, multani, thai, tangsa, gurmukhi, marchen, adlam, old-uyghur, greek-ext, yezidi, sora-sompeng, cyrillic-ext, lisu</li>
+<li>U+00A0 NO-BREAK SPACE: try adding one of: yi, ol-chiki, palmyrene, saurashtra, georgian, tai-viet, meroitic-hieroglyphs, telugu, math, bengali, old-sogdian, runic, vithkuqi, warang-citi, pahawh-hmong, oriya, samaritan, latin, hebrew, nabataean, znamenny, ugaritic, egyptian-hieroglyphs, javanese, makasar, nandinagari, siddham, coptic, pau-cin-hau, japanese, elbasan, mongolian, tai-tham, mahajani, kannada, mro, ogham, tamil-supplement, lycian, brahmi, newa, armenian, duployan, medefaidrin, bamum, cyrillic, kharoshthi, carian, sharada, soyombo, rejang, mandaic, phags-pa, arabic, symbols, gothic, syloti-nagri, chinese-traditional, cypriot, tagbanwa, psalter-pahlavi, osage, inscriptional-parthian, lao, cuneiform, kaithi, hanunoo, linear-b, dives-akuru, khudawadi, latin-ext, korean, linear-a, meroitic, shavian, manichaean, avestan, kana-extended, cham, meetei-mayek, nko, old-italic, tibetan, braille, old-south-arabian, grantha, tifinagh, zanabazar-square, tagalog, cypro-minoan, chinese-simplified, modi, old-persian, sinhala, old-north-arabian, ahom, old-permic, bassa-vah, meroitic-cursive, toto, wancho, devanagari, miao, ethiopic, khojki, old-hungarian, nyiakeng-puachue-hmong, inscriptional-pahlavi, lydian, masaram-gondi, tirhuta, buginese, cherokee, thaana, mayan-numerals, mende-kikakui, khitan-small-script, bhaiksuki, tangut, dogra, chakma, limbu, buhid, greek, lepcha, deseret, kayah-li, tamil, balinese, hanifi-rohingya, malayalam, nushu, canadian-aboriginal, vietnamese, old-turkic, ottoman-siyaq-numbers, glagolitic, phoenician, signwriting, vai, batak, syriac, chorasmian, kawi, tai-le, caucasian-albanian, hatran, elymaic, myanmar, music, nag-mundari, sundanese, gunjala-gondi, takri, anatolian-hieroglyphs, new-tai-lue, indic-siyaq-numbers, sogdian, chinese-hongkong, gujarati, osmanya, imperial-aramaic, multani, thai, tangsa, gurmukhi, marchen, adlam, old-uyghur, greek-ext, yezidi, sora-sompeng, cyrillic-ext, lisu</li>
 <li>U+0E70 : not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
@@ -1254,8 +1233,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 6 | 125 | 7 | 107 | 0 | 
-| 0% | 0% | 3% | 2% | 50% | 3% | 42% | 0% | 
+| 0 | 0 | 6 | 6 | 125 | 7 | 108 | 0 | 
+| 0% | 0% | 2% | 2% | 50% | 3% | 43% | 0% | 
 
 
 
