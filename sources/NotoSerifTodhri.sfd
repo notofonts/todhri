@@ -878,7 +878,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Uml.Diaeresis
+StartChar: diaeresiscomb
 Encoding: 776 776 1
 Width: 0
 HStem: 632 112<-305.272 -219.224 -115.272 -29.2245>
@@ -902,14 +902,14 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Punc.Space
+StartChar: space
 Encoding: 32 32 2
 Width: 260
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: u323
+StartChar: dotbelowcomb
 Encoding: 803 803 3
 Width: 0
 GlyphClass: 4
@@ -947,7 +947,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Uml.Macron
+StartChar: macroncomb
 Encoding: 772 772 5
 Width: 0
 HStem: 616 59<-145 145>
@@ -960,7 +960,7 @@ Fore
 Refer: 72 713 N 1 0 0 1 -185 0 2
 EndChar
 
-StartChar: Uml.Overline
+StartChar: overlinecomb
 Encoding: 773 773 6
 Width: 0
 HStem: 760 59<-204 204>
@@ -978,14 +978,14 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Punc.Nbsp
+StartChar: nbspace
 Encoding: 160 160 7
 Width: 260
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: Todr.A
+StartChar: a-todhri
 Encoding: 67008 67008 8
 Width: 473
 Flags: W
@@ -1012,7 +1012,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.As
+StartChar: as-todhri
 Encoding: 67009 67009 9
 Width: 661
 UnlinkRmOvrlpSave: 1
@@ -1028,7 +1028,7 @@ Refer: 10 -1 N 1 0 0 1 -17 0 2
 Refer: 8 67008 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.As.part
+StartChar: as-todhri.part
 Encoding: 1114150 -1 10
 Width: 1000
 HStem: 290.799 70.8521<485.167 601.381>
@@ -1046,7 +1046,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.N
+StartChar: n-todhri
 Encoding: 67032 67032 11
 Width: 473
 Flags: W
@@ -1070,7 +1070,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Njan
+StartChar: njan-todhri
 Encoding: 67033 67033 12
 Width: 626
 UnlinkRmOvrlpSave: 1
@@ -1086,7 +1086,7 @@ Refer: 13 -1 N 1 0 0 1 -24 0 2
 Refer: 8 67008 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.Njan.Part
+StartChar: njan-todhri.Part
 Encoding: 1114151 -1 13
 Width: 1000
 HStem: 159.95 299.352
@@ -1104,7 +1104,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.B
+StartChar: b-todhri
 Encoding: 67010 67010 14
 Width: 873
 Flags: W
@@ -1134,7 +1134,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.OO
+StartChar: oo-todhri
 Encoding: 67059 67059 15
 Width: 873
 Flags: W
@@ -1164,7 +1164,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.G
+StartChar: g-todhri
 Encoding: 67020 67020 16
 Width: 573
 Flags: W
@@ -1193,7 +1193,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Ng.Part
+StartChar: ng-todhri.Part
 Encoding: 1114152 -1 17
 Width: 1000
 HStem: 425.768 288.232
@@ -1209,7 +1209,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Ng
+StartChar: ng-todhri
 Encoding: 67021 67021 18
 Width: 573
 UnlinkRmOvrlpSave: 1
@@ -1225,7 +1225,7 @@ Refer: 17 -1 N 1 0 0 1 22 0 2
 Refer: 16 67020 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.I
+StartChar: i-todhri
 Encoding: 67026 67026 19
 Width: 250
 Flags: W
@@ -1245,7 +1245,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Ei
+StartChar: ei-todhri
 Encoding: 67017 67017 20
 Width: 250
 Flags: W
@@ -1260,7 +1260,7 @@ Refer: 70 729 N 1 0 0 1 29 -16 2
 Refer: 19 67026 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.O
+StartChar: o-todhri
 Encoding: 67034 67034 21
 Width: 635
 Flags: W
@@ -1288,7 +1288,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.U
+StartChar: u-todhri
 Encoding: 67044 67044 22
 Width: 635
 Flags: W
@@ -1303,7 +1303,7 @@ Refer: 70 729 N 1 0 0 1 216 -15 2
 Refer: 21 67034 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.Mb
+StartChar: mb-todhri
 Encoding: 67011 67011 23
 Width: 445
 Flags: W
@@ -1336,7 +1336,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.C
+StartChar: c-todhri
 Encoding: 67012 67012 24
 Width: 520
 Flags: W
@@ -1351,7 +1351,7 @@ Refer: 52 -1 N 1 0 0 1 -78 0 2
 Refer: 51 67042 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.Ch
+StartChar: ch-todhri
 Encoding: 67013 67013 25
 Width: 504
 Flags: W
@@ -1387,7 +1387,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Xh
+StartChar: xh-todhri
 Encoding: 67048 67048 26
 Width: 504
 Flags: W
@@ -1429,7 +1429,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Nxh.part
+StartChar: nxh-todhri.part
 Encoding: 1114153 -1 27
 Width: 1000
 HStem: 518 74<510.848 560.094>
@@ -1450,7 +1450,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Nxh
+StartChar: nxh-todhri
 Encoding: 67049 67049 28
 Width: 682
 UnlinkRmOvrlpSave: 1
@@ -1466,7 +1466,7 @@ Refer: 27 -1 N 1 0 0 1 13 0 2
 Refer: 26 67048 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.D
+StartChar: d-todhri
 Encoding: 67014 67014 29
 Width: 665
 Flags: W
@@ -1490,7 +1490,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Nd
+StartChar: nd-todhri
 Encoding: 67015 67015 30
 Width: 810
 Flags: W
@@ -1528,7 +1528,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Dh
+StartChar: dh-todhri
 Encoding: 67016 67016 31
 Width: 549
 Flags: W
@@ -1555,7 +1555,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.E
+StartChar: e-todhri
 Encoding: 67018 67018 32
 Width: 433
 Flags: W
@@ -1590,7 +1590,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.F
+StartChar: f-todhri
 Encoding: 67019 67019 33
 Width: 667
 Flags: W
@@ -1618,7 +1618,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Gj
+StartChar: gj-todhri
 Encoding: 67022 67022 34
 Width: 578
 Flags: W
@@ -1655,7 +1655,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Ngj
+StartChar: ngj-todhri
 Encoding: 67023 67023 35
 Width: 578
 UnlinkRmOvrlpSave: 1
@@ -1671,7 +1671,7 @@ Refer: 17 -1 N 1 0 0 1 28 0 2
 Refer: 34 67022 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.H
+StartChar: h-todhri
 Encoding: 67024 67024 36
 Width: 512
 Flags: W
@@ -1705,7 +1705,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Hj
+StartChar: hj-todhri
 Encoding: 67025 67025 37
 Width: 512
 Flags: W
@@ -1739,7 +1739,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.K
+StartChar: k-todhri
 Encoding: 67028 67028 38
 Width: 422
 Flags: W
@@ -1766,7 +1766,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.J
+StartChar: j-todhri
 Encoding: 67027 67027 39
 Width: 422
 Flags: W
@@ -1793,7 +1793,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.L
+StartChar: l-todhri
 Encoding: 67029 67029 40
 Width: 543
 Flags: W
@@ -1824,7 +1824,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.LL
+StartChar: ll-todhri
 Encoding: 67030 67030 41
 Width: 521
 Flags: W
@@ -1857,7 +1857,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.M
+StartChar: m-todhri
 Encoding: 67031 67031 42
 Width: 573
 Flags: W
@@ -1886,7 +1886,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.P
+StartChar: p-todhri
 Encoding: 67035 67035 43
 Width: 707
 Flags: W
@@ -1913,7 +1913,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Q
+StartChar: q-todhri
 Encoding: 67036 67036 44
 Width: 696
 Flags: W
@@ -1947,7 +1947,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.R
+StartChar: r-todhri
 Encoding: 67037 67037 45
 Width: 386
 Flags: W
@@ -1971,7 +1971,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Rr
+StartChar: rr-todhri
 Encoding: 67038 67038 46
 Width: 460
 Flags: W
@@ -2000,7 +2000,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.S
+StartChar: s-todhri
 Encoding: 67039 67039 47
 Width: 472
 Flags: W
@@ -2031,7 +2031,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Sh
+StartChar: sh-todhri
 Encoding: 67040 67040 48
 Width: 536
 Flags: W
@@ -2072,7 +2072,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Sht
+StartChar: sht-todhri
 Encoding: 67041 67041 49
 Width: 581
 UnlinkRmOvrlpSave: 1
@@ -2088,7 +2088,7 @@ Refer: 50 -1 N 1 0 0 1 -25 0 2
 Refer: 48 67040 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.Sht.part
+StartChar: sht-todhri.part
 Encoding: 1114154 -1 50
 Width: 1000
 HStem: 0 21G<480.518 530.518>
@@ -2107,7 +2107,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.T
+StartChar: t-todhri
 Encoding: 67042 67042 51
 Width: 415
 Flags: W
@@ -2136,7 +2136,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Ca.part
+StartChar: ca-todhri.part
 Encoding: 1114155 -1 52
 Width: 1000
 HStem: 0 50<395 573>
@@ -2152,7 +2152,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Th
+StartChar: th-todhri
 Encoding: 67043 67043 53
 Width: 502
 Flags: W
@@ -2189,7 +2189,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.V
+StartChar: v-todhri
 Encoding: 67045 67045 54
 Width: 408
 Flags: W
@@ -2216,7 +2216,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.X
+StartChar: x-todhri
 Encoding: 67046 67046 55
 Width: 526
 Flags: W
@@ -2245,7 +2245,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Nx
+StartChar: nx-todhri
 Encoding: 67047 67047 56
 Width: 531
 Flags: W
@@ -2277,7 +2277,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Y
+StartChar: y-todhri
 Encoding: 67050 67050 57
 Width: 583
 Flags: W
@@ -2311,7 +2311,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Jy
+StartChar: jy-todhri
 Encoding: 67051 67051 58
 Width: 583
 UnlinkRmOvrlpSave: 1
@@ -2327,7 +2327,7 @@ Refer: 59 -1 N 1 0 0 1 -89 0 2
 Refer: 57 67050 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Todr.Jy.part
+StartChar: jy-todhri.part
 Encoding: 1114156 -1 59
 Width: 1000
 VStem: 172.01 100<239.35 714>
@@ -2342,7 +2342,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.St
+StartChar: st-todhri
 Encoding: 67055 67055 60
 Width: 577
 Flags: W
@@ -2375,7 +2375,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Gh
+StartChar: gh-todhri
 Encoding: 67054 67054 61
 Width: 645
 Flags: W
@@ -2406,7 +2406,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Z
+StartChar: z-todhri
 Encoding: 67052 67052 62
 Width: 689
 Flags: W
@@ -2443,7 +2443,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Zh
+StartChar: zh-todhri
 Encoding: 67053 67053 63
 Width: 579
 Flags: W
@@ -2486,7 +2486,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Skan
+StartChar: skan-todhri
 Encoding: 67056 67056 64
 Width: 535
 Flags: W
@@ -2525,7 +2525,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Ps
+StartChar: ps-todhri
 Encoding: 67058 67058 65
 Width: 707
 Flags: W
@@ -2560,7 +2560,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Todr.Kh
+StartChar: kh-todhri
 Encoding: 67057 67057 66
 Width: 549
 Flags: W
@@ -2587,7 +2587,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Uml.Grave
+StartChar: gravecomb
 Encoding: 768 768 67
 Width: 0
 Flags: W
@@ -2609,7 +2609,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Mod.Acute
+StartChar: acute
 Encoding: 180 180 68
 Width: 274
 Flags: W
@@ -2628,7 +2628,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Uml.Acute
+StartChar: acutecomb
 Encoding: 769 769 69
 Width: 0
 Flags: W
@@ -2642,7 +2642,7 @@ Fore
 Refer: 68 180 N 1 0 0 1 -342 0 2
 EndChar
 
-StartChar: Mod.DotAbove
+StartChar: dotabovemod
 Encoding: 729 729 70
 Width: 194
 Flags: W
@@ -2659,7 +2659,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Uml.DotAbove
+StartChar: dotabovecomb
 Encoding: 775 775 71
 Width: 0
 Flags: W
@@ -2673,7 +2673,7 @@ Fore
 Refer: 70 729 N 1 0 0 1 -333 2 2
 EndChar
 
-StartChar: Mod.Macron
+StartChar: macronmod
 Encoding: 713 713 72
 Width: 370
 Flags: W
@@ -2690,7 +2690,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Uml.InvBreve
+StartChar: breveinvertedcmb
 Encoding: 785 785 73
 Width: 0
 HStem: 674 69<-67.4259 68.0778>
@@ -2712,7 +2712,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Uml.Double.Macron
+StartChar: dblmacroncomb
 Encoding: 862 862 74
 Width: 0
 GlyphClass: 4
