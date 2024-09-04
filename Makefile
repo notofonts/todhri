@@ -1,4 +1,4 @@
-SOURCES=$(shell python3 scripts/read-config.py --sources )
+SOURCES=sources/NotoSerifTodhri.sfd
 FAMILY=$(shell python3 scripts/read-config.py --family )
 
 help:
@@ -18,6 +18,7 @@ venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
+	. venv/bin/activate; babelfont $(SOURCES) sources/NotoSerifTodhri.glyphs
 	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder $$config; done)  && touch build.stamp
 
 .init.stamp: venv

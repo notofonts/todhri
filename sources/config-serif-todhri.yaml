@@ -1,0 +1,6 @@
+googleFonts: true
+sources:
+- NotoSerifTodhri.glyphs
+familyName: Noto Serif Todhri
+recipeProvider: noto
+removeOutlineOverlaps: false
