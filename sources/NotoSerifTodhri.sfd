@@ -1,9 +1,9 @@
 SplineFontDB: 3.2
-FontName: SomeTodhri
-FullName: SomeTodhri
-FamilyName: SomeTodhri
+FontName: Noto Serif Todhri
+FullName: Noto Serif Todhri
+FamilyName: Noto Serif Todhri
 Weight: Regular
-Copyright: (c) 2021 -2024 Mikhail Merkuryev\nSIL Open Font License 1.1
+Copyright: Copyright 2024 The Noto Project Authors (https://github.com/notofonts/todhri)
 UComments: "2021-9-15: Created with FontForge (http://fontforge.org)+AAoACgAA-Auto-kerning: separation 210, min.kerning 30"
 Version: 2.7.5
 ItalicAngle: 0
