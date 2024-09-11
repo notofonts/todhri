@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+# Initial design
+Mikhail Merkuryev <mercury13@ukr.net>
