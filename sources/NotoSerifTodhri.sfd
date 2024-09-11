@@ -42,7 +42,7 @@ HheadDescent: -293
 HheadDOffset: 0
 OS2CapHeight: 714
 OS2XHeight: 536
-OS2Vendor: 'Merc'
+OS2Vendor: 'GOOG'
 OS2CodePages: 00000007.00000000
 OS2UnicodeRanges: a82003c1.9205a186.01000008.00000000
 Lookup: 260 0 0 "Common ABVM" { "Common ABVM-1"  } ['abvm' ('DFLT' <'dflt' > 'todr' <'dflt' > ) ]
