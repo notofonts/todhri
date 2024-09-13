@@ -978,7 +978,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: nbspace
+StartChar: uni00A0
 Encoding: 160 160 7
 Width: 260
 Flags: W
