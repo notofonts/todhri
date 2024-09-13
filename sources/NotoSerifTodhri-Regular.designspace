@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400"/>
+  </axes>
+  <sources>
+    <source filename="NotoSerifTodhri-Regular.ufo" name="Noto Serif Todhri Regular" familyname="Noto Serif Todhri" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Todhri Regular" familyname="Noto Serif Todhri" stylename="Regular" stylemapfamilyname="Noto Serif Todhri" filename="NotoSerifTodhri-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

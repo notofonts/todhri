@@ -18,7 +18,7 @@ venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
-	. venv/bin/activate; babelfont $(SOURCES) sources/NotoSerifTodhri.glyphs
+	. venv/bin/activate; babelfont $(SOURCES) sources/NotoSerifTodhri-Regular.ufo
 	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder $$config; done)  && touch build.stamp
 
 .init.stamp: venv
