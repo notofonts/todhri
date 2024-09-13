@@ -782,16 +782,16 @@ Grid
  2000 700 l 1024
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "TopRight" "Common ABVM-1" "Dot below mark" "Common MKMK-1" "Umlaut mark" "Common MKMK-1" "Dot below" "Common BLWM-1" "Umlaut" "Common ABVM-1"
+AnchorClass2: "topright" "Common ABVM-1" "bottom mark" "Common MKMK-1" "top mark" "Common MKMK-1" "bottom" "Common BLWM-1" "top" "Common ABVM-1"
 BeginChars: 1114175 75
 
 StartChar: uni25CC
 Encoding: 9676 9676 0
 Width: 594
 Flags: MW
-AnchorPoint: "TopRight" 594 560 basechar 0
-AnchorPoint: "Dot below" 298 0 basechar 0
-AnchorPoint: "Umlaut" 297 560 basechar 0
+AnchorPoint: "topright" 594 560 basechar 0
+AnchorPoint: "bottom" 298 0 basechar 0
+AnchorPoint: "top" 297 560 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -883,9 +883,9 @@ Encoding: 776 776 1
 Width: 0
 HStem: 632 112<-305.272 -219.224 -115.272 -29.2245>
 VStem: -313 102<639.598 737.123> -123 102<639.598 737.123>
-AnchorPoint: "Umlaut mark" -166 744 basemark 0
-AnchorPoint: "Umlaut mark" -164 594 mark 0
-AnchorPoint: "Umlaut" -164 560 mark 0
+AnchorPoint: "top mark" -166 744 basemark 0
+AnchorPoint: "top mark" -164 594 mark 0
+AnchorPoint: "top" -164 560 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -916,9 +916,9 @@ GlyphClass: 4
 Flags: W
 HStem: -183 124<-345.545 -252.622>
 VStem: -356 114<-172.928 -68.9053>
-AnchorPoint: "Dot below mark" -299 -172 basemark 0
-AnchorPoint: "Dot below mark" -299 0 mark 0
-AnchorPoint: "Dot below" -299 0 mark 0
+AnchorPoint: "bottom mark" -299 -172 basemark 0
+AnchorPoint: "bottom mark" -299 0 mark 0
+AnchorPoint: "bottom" -299 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -952,9 +952,9 @@ Encoding: 772 772 5
 Width: 0
 HStem: 616 59<-145 145>
 VStem: -145 290<616 675>
-AnchorPoint: "Umlaut mark" 0 675 basemark 0
-AnchorPoint: "Umlaut mark" 0 560 mark 0
-AnchorPoint: "Umlaut" 0 536 mark 0
+AnchorPoint: "top mark" 0 675 basemark 0
+AnchorPoint: "top mark" 0 560 mark 0
+AnchorPoint: "top" 0 536 mark 0
 LayerCount: 2
 Fore
 Refer: 72 713 N 1 0 0 1 -185 0 2
@@ -964,9 +964,9 @@ StartChar: overlinecomb
 Encoding: 773 773 6
 Width: 0
 HStem: 760 59<-204 204>
-AnchorPoint: "Umlaut" 0 536 mark 0
-AnchorPoint: "Umlaut mark" 0 704 mark 0
-AnchorPoint: "Umlaut mark" 0 819 basemark 0
+AnchorPoint: "top" 0 536 mark 0
+AnchorPoint: "top mark" 0 704 mark 0
+AnchorPoint: "top mark" 0 819 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -990,9 +990,9 @@ Encoding: 67008 67008 8
 Width: 473
 Flags: W
 HStem: 0 21G<179.59 293.41>
-AnchorPoint: "Dot below" 242 0 basechar 0
-AnchorPoint: "TopRight" 473 536 basechar 0
-AnchorPoint: "Umlaut" 241 536 basechar 0
+AnchorPoint: "bottom" 242 0 basechar 0
+AnchorPoint: "topright" 473 536 basechar 0
+AnchorPoint: "top" 241 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1019,9 +1019,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: 0 21G<179.59 293.41> 290.799 70.8521<468.167 584.381>
 VStem: 380.073 266.524<350.204 375.622>
-AnchorPoint: "Dot below" 242 0 basechar 0
-AnchorPoint: "TopRight" 661 536 basechar 0
-AnchorPoint: "Umlaut" 241 536 basechar 0
+AnchorPoint: "bottom" 242 0 basechar 0
+AnchorPoint: "topright" 661 536 basechar 0
+AnchorPoint: "top" 241 536 basechar 0
 LayerCount: 2
 Fore
 Refer: 10 -1 N 1 0 0 1 -17 0 2
@@ -1051,9 +1051,9 @@ Encoding: 67032 67032 11
 Width: 473
 Flags: W
 HStem: 0 21G<179.59 293.41>
-AnchorPoint: "Dot below" 243 0 basechar 0
-AnchorPoint: "TopRight" 473 536 basechar 0
-AnchorPoint: "Umlaut" 262 536 basechar 0
+AnchorPoint: "bottom" 243 0 basechar 0
+AnchorPoint: "topright" 473 536 basechar 0
+AnchorPoint: "top" 262 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1077,9 +1077,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: 0 21G<179.59 293.41> 159.95 299.352
 VStem: 513.426 62.6672<195.199 289.794>
-AnchorPoint: "Dot below" 243 0 basechar 0
-AnchorPoint: "TopRight" 626 536 basechar 0
-AnchorPoint: "Umlaut" 262 536 basechar 0
+AnchorPoint: "bottom" 243 0 basechar 0
+AnchorPoint: "topright" 626 536 basechar 0
+AnchorPoint: "top" 262 536 basechar 0
 LayerCount: 2
 Fore
 Refer: 13 -1 N 1 0 0 1 -24 0 2
@@ -1110,9 +1110,9 @@ Width: 873
 Flags: W
 HStem: 0 21G<50 165 708 823> 497 50<335.014 534.018>
 VStem: 50 115<0 226.942> 708 115<0 223.608>
-AnchorPoint: "Dot below" 438 0 basechar 0
-AnchorPoint: "TopRight" 873 537.4 basechar 0
-AnchorPoint: "Umlaut" 437 536.4 basechar 0
+AnchorPoint: "bottom" 438 0 basechar 0
+AnchorPoint: "topright" 873 537.4 basechar 0
+AnchorPoint: "top" 437 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1140,9 +1140,9 @@ Width: 873
 Flags: W
 HStem: -11 50<339.785 535.658>
 VStem: 50 115<312.28 536> 708 115<312.391 536>
-AnchorPoint: "Dot below" 440 0 basechar 0
-AnchorPoint: "TopRight" 873 536 basechar 0
-AnchorPoint: "Umlaut" 439 517.4 basechar 0
+AnchorPoint: "bottom" 440 0 basechar 0
+AnchorPoint: "topright" 873 536 basechar 0
+AnchorPoint: "top" 439 517.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1170,9 +1170,9 @@ Width: 573
 Flags: W
 HStem: 0 21G<75 177 403 503> 371 50<217.467 361.389>
 VStem: 75 102<0 338.244 384 714> 403 100<0 327.316>
-AnchorPoint: "Dot below" 290 0 basechar 0
-AnchorPoint: "TopRight" 573 714 basechar 0
-AnchorPoint: "Umlaut" 201 713 basechar 0
+AnchorPoint: "bottom" 290 0 basechar 0
+AnchorPoint: "topright" 573 714 basechar 0
+AnchorPoint: "top" 201 713 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1216,9 +1216,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: 0 21G<75 177 403 503> 371 50<217.467 361.389> 425.768 288.232
 VStem: 75 102<0 338.244 384 714> 134.736 323.59 403 100<0 327.316>
-AnchorPoint: "Dot below" 290 0 basechar 0
-AnchorPoint: "TopRight" 573 714 basechar 0
-AnchorPoint: "Umlaut" 253 714 basechar 0
+AnchorPoint: "bottom" 290 0 basechar 0
+AnchorPoint: "topright" 573 714 basechar 0
+AnchorPoint: "top" 253 714 basechar 0
 LayerCount: 2
 Fore
 Refer: 17 -1 N 1 0 0 1 22 0 2
@@ -1231,9 +1231,9 @@ Width: 250
 Flags: W
 HStem: 0 21G<75 175>
 VStem: 75 100<0 536>
-AnchorPoint: "Dot below" 126 0 basechar 0
-AnchorPoint: "TopRight" 250 536 basechar 0
-AnchorPoint: "Umlaut" 127 536.4 basechar 0
+AnchorPoint: "bottom" 126 0 basechar 0
+AnchorPoint: "topright" 250 536 basechar 0
+AnchorPoint: "top" 127 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1251,9 +1251,9 @@ Width: 250
 Flags: W
 HStem: 0 21G<75 175> 620 124<79.4548 172.378>
 VStem: 69 114<630.072 734.095> 75 100<0 536>
-AnchorPoint: "Dot below" 128 0 basechar 0
-AnchorPoint: "TopRight" 250 752 basechar 0
-AnchorPoint: "Umlaut" 126 747 basechar 0
+AnchorPoint: "bottom" 128 0 basechar 0
+AnchorPoint: "topright" 250 752 basechar 0
+AnchorPoint: "top" 126 747 basechar 0
 LayerCount: 2
 Fore
 Refer: 70 729 N 1 0 0 1 29 -16 2
@@ -1266,9 +1266,9 @@ Width: 635
 Flags: W
 HStem: -10 50<266.591 399.846> 496 50<240.951 377.189>
 VStem: 55 100<177.355 394.941> 480 100<136.405 368.532>
-AnchorPoint: "Dot below" 333 0 basechar 0
-AnchorPoint: "TopRight" 635 536 basechar 0
-AnchorPoint: "Umlaut" 313 536 basechar 0
+AnchorPoint: "bottom" 333 0 basechar 0
+AnchorPoint: "topright" 635 536 basechar 0
+AnchorPoint: "top" 313 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1294,9 +1294,9 @@ Width: 635
 Flags: W
 HStem: -10 50<266.591 399.846> 496 50<240.951 377.189> 621 124<266.455 359.378>
 VStem: 55 100<177.355 394.941> 256 114<631.072 735.095> 480 100<136.405 368.532>
-AnchorPoint: "Dot below" 333 0 basechar 0
-AnchorPoint: "TopRight" 635 746 basechar 0
-AnchorPoint: "Umlaut" 313 749 basechar 0
+AnchorPoint: "bottom" 333 0 basechar 0
+AnchorPoint: "topright" 635 746 basechar 0
+AnchorPoint: "top" 313 749 basechar 0
 LayerCount: 2
 Fore
 Refer: 70 729 N 1 0 0 1 216 -15 2
@@ -1309,9 +1309,9 @@ Width: 445
 Flags: W
 HStem: -10 50<212.344 320.54> 264 50<157 250.008> 674 50<240.141 303.995>
 VStem: 55 100<136.469 264 314 471.315> 313 50<438.464 668.813> 355 50<73.6291 199.437>
-AnchorPoint: "Dot below" 250 0 basechar 0
-AnchorPoint: "TopRight" 445 704 basechar 0
-AnchorPoint: "Umlaut" 279 703 basechar 0
+AnchorPoint: "bottom" 250 0 basechar 0
+AnchorPoint: "topright" 445 704 basechar 0
+AnchorPoint: "top" 279 703 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1342,9 +1342,9 @@ Width: 520
 Flags: W
 HStem: 0 21G<240 340> 0 50<317 495> 224 50<162.193 240> 674 50<145.767 217.629>
 VStem: 55 50<352.245 615.726> 240 100<0 224 274 651.04> 317 178<0 50>
-AnchorPoint: "Dot below" 260 0 basechar 0
-AnchorPoint: "TopRight" 520 704 basechar 0
-AnchorPoint: "Umlaut" 206 702 basechar 0
+AnchorPoint: "bottom" 260 0 basechar 0
+AnchorPoint: "topright" 520 704 basechar 0
+AnchorPoint: "top" 206 702 basechar 0
 LayerCount: 2
 Fore
 Refer: 52 -1 N 1 0 0 1 -78 0 2
@@ -1357,9 +1357,9 @@ Width: 504
 Flags: W
 HStem: -240 50<255 314.827> 101 51<199.47 292.752> 496 50<181.15 306.801>
 VStem: 55 89<223.085 427.664> 304 100<138.873 437.576> 339 100<-144.085 128.229>
-AnchorPoint: "Dot below" 239 -236 basechar 0
-AnchorPoint: "TopRight" 504 536 basechar 0
-AnchorPoint: "Umlaut" 238 536 basechar 0
+AnchorPoint: "bottom" 239 -236 basechar 0
+AnchorPoint: "topright" 504 536 basechar 0
+AnchorPoint: "top" 238 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1393,9 +1393,9 @@ Width: 504
 Flags: W
 HStem: -240 50<217.512 315.297> 101.963 50.037<197.909 293.104> 496 50<182.831 305.846>
 VStem: 55 89<223.837 429.489> 157 50<-180.683 -60.9761> 304 100<136.441 437.576> 339 100<-141.899 87.0041>
-AnchorPoint: "Dot below" 274 -226 basechar 0
-AnchorPoint: "TopRight" 505 536 basechar 0
-AnchorPoint: "Umlaut" 238 534 basechar 0
+AnchorPoint: "bottom" 274 -226 basechar 0
+AnchorPoint: "topright" 505 536 basechar 0
+AnchorPoint: "top" 238 534 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1457,9 +1457,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -240 50<217.512 315.297> 101.963 50.037<197.909 293.104> 496 50<182.831 305.846> 518 74<523.848 573.094>
 VStem: 55 89<223.837 429.489> 157 50<-180.683 -60.9761> 304 100<136.441 437.576> 339 100<-141.899 87.0041> 582 50<358.832 511.477>
-AnchorPoint: "Dot below" 274 -226 basechar 0
-AnchorPoint: "TopRight" 682 568 basechar 0
-AnchorPoint: "Umlaut" 239 536 basechar 0
+AnchorPoint: "bottom" 274 -226 basechar 0
+AnchorPoint: "topright" 682 568 basechar 0
+AnchorPoint: "top" 239 536 basechar 0
 LayerCount: 2
 Fore
 Refer: 27 -1 N 1 0 0 1 13 0 2
@@ -1471,9 +1471,9 @@ Encoding: 67014 67014 29
 Width: 665
 Flags: W
 HStem: 0 21G<40 99.7087 512.291 625>
-AnchorPoint: "Dot below" 316 0 basechar 0
-AnchorPoint: "TopRight" 665 714 basechar 0
-AnchorPoint: "Umlaut" 334 699 basechar 0
+AnchorPoint: "bottom" 316 0 basechar 0
+AnchorPoint: "topright" 665 714 basechar 0
+AnchorPoint: "top" 334 699 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1495,9 +1495,9 @@ Encoding: 67015 67015 30
 Width: 810
 Flags: W
 HStem: 0 21G<40 109.468 336.532 474.429 643.571 770>
-AnchorPoint: "Dot below" 407 0 basechar 0
-AnchorPoint: "TopRight" 810 536 basechar 0
-AnchorPoint: "Umlaut" 405 536.4 basechar 0
+AnchorPoint: "bottom" 407 0 basechar 0
+AnchorPoint: "topright" 810 536 basechar 0
+AnchorPoint: "top" 405 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1534,9 +1534,9 @@ Width: 549
 Flags: W
 HStem: 0 50<175 384>
 VStem: 75 100<121 714> 384 100<50 259>
-AnchorPoint: "Dot below" 280 0 basechar 0
-AnchorPoint: "TopRight" 549 714 basechar 0
-AnchorPoint: "Umlaut" 160 714 basechar 0
+AnchorPoint: "bottom" 280 0 basechar 0
+AnchorPoint: "topright" 549 714 basechar 0
+AnchorPoint: "top" 160 714 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1561,9 +1561,9 @@ Width: 433
 Flags: W
 HStem: 0 21G<100 168.625> 672 52<67.2412 197.817>
 VStem: 281 99<383.247 582.561>
-AnchorPoint: "Dot below" 152 0 basechar 0
-AnchorPoint: "TopRight" 433 714 basechar 0
-AnchorPoint: "Umlaut" 185 710 basechar 0
+AnchorPoint: "bottom" 152 0 basechar 0
+AnchorPoint: "topright" 433 714 basechar 0
+AnchorPoint: "top" 185 710 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1596,9 +1596,9 @@ Width: 667
 Flags: W
 HStem: -10 50<273.513 438.33> 602 32<501.012 525.062> 696 32<442.254 484.844>
 VStem: 55 100<179.905 423.866> 323 93<426 476.849> 512 100<136.789 286.757>
-AnchorPoint: "Dot below" 335 0 basechar 0
-AnchorPoint: "TopRight" 667 719 basechar 0
-AnchorPoint: "Umlaut" 425 723 basechar 0
+AnchorPoint: "bottom" 335 0 basechar 0
+AnchorPoint: "topright" 667 719 basechar 0
+AnchorPoint: "top" 425 723 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1624,9 +1624,9 @@ Width: 578
 Flags: W
 HStem: -240 50<222.359 376.047> 0 21G<75 177> 128 10<270 279.84> 351 50<202.686 320.871>
 VStem: 75 102<0 326.192 364 714> 100 87<-154.236 -108.063> 345 100<193.629 328.767> 428 100<-124.336 35.0266>
-AnchorPoint: "Dot below" 290 -231 basechar 0
-AnchorPoint: "TopRight" 578 714 basechar 0
-AnchorPoint: "Umlaut" 193 712 basechar 0
+AnchorPoint: "bottom" 290 -231 basechar 0
+AnchorPoint: "topright" 578 714 basechar 0
+AnchorPoint: "top" 193 712 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1662,9 +1662,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -240 50<222.359 376.047> 0 21G<75 177> 128 10<270 279.84> 351 50<202.686 320.871> 425.768 288.232
 VStem: 75 102<0 326.192 364 714> 100 87<-154.236 -108.063> 140.736 323.59 345 100<193.629 328.767> 428 100<-124.336 35.0266>
-AnchorPoint: "Dot below" 290 -231 basechar 0
-AnchorPoint: "TopRight" 578 714 basechar 0
-AnchorPoint: "Umlaut" 279 714 basechar 0
+AnchorPoint: "bottom" 290 -231 basechar 0
+AnchorPoint: "topright" 578 714 basechar 0
+AnchorPoint: "top" 279 714 basechar 0
 LayerCount: 2
 Fore
 Refer: 17 -1 N 1 0 0 1 28 0 2
@@ -1677,9 +1677,9 @@ Width: 512
 Flags: W
 HStem: -10 48<264.028 427.955> 496 50<266.458 414.058>
 VStem: 55 100<202.407 335.602>
-AnchorPoint: "Dot below" 314 0 basechar 0
-AnchorPoint: "TopRight" 512 536 basechar 0
-AnchorPoint: "Umlaut" 314 536 basechar 0
+AnchorPoint: "bottom" 314 0 basechar 0
+AnchorPoint: "topright" 512 536 basechar 0
+AnchorPoint: "top" 314 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1711,9 +1711,9 @@ Width: 512
 Flags: W
 HStem: -10 50<97.9423 245.542> 498 48<84.0454 247.972>
 VStem: 357 100<200.398 333.593>
-AnchorPoint: "Dot below" 203 0 basechar 0
-AnchorPoint: "TopRight" 512 536 basechar 0
-AnchorPoint: "Umlaut" 198 536 basechar 0
+AnchorPoint: "bottom" 203 0 basechar 0
+AnchorPoint: "topright" 512 536 basechar 0
+AnchorPoint: "top" 198 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1745,9 +1745,9 @@ Width: 422
 Flags: W
 HStem: -10 50<269.428 367> 496 50<268.855 367>
 VStem: 55 100<174.873 367.214>
-AnchorPoint: "Dot below" 264 0 basechar 0
-AnchorPoint: "TopRight" 422 536 basechar 0
-AnchorPoint: "Umlaut" 277 536.4 basechar 0
+AnchorPoint: "bottom" 264 0 basechar 0
+AnchorPoint: "topright" 422 536 basechar 0
+AnchorPoint: "top" 277 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1772,9 +1772,9 @@ Width: 422
 Flags: W
 HStem: -10 50<55 153.145> 496 50<55 152.572>
 VStem: 267 100<168.786 361.127>
-AnchorPoint: "Dot below" 150 0 basechar 0
-AnchorPoint: "TopRight" 422 536 basechar 0
-AnchorPoint: "Umlaut" 156 536.4 basechar 0
+AnchorPoint: "bottom" 150 0 basechar 0
+AnchorPoint: "topright" 422 536 basechar 0
+AnchorPoint: "top" 156 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1799,9 +1799,9 @@ Width: 543
 Flags: W
 HStem: -10 50<241.75 368> 315 50<221.857 368>
 VStem: 55 100<111.893 250.134> 368 100<-242 -10 40 315 365 537>
-AnchorPoint: "Dot below" 360 -242 basechar 0
-AnchorPoint: "TopRight" 545 536 basechar 0
-AnchorPoint: "Umlaut" 366 536 basechar 0
+AnchorPoint: "bottom" 360 -242 basechar 0
+AnchorPoint: "topright" 545 536 basechar 0
+AnchorPoint: "top" 366 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1830,9 +1830,9 @@ Width: 521
 Flags: W
 HStem: 155 50<175 346> 320 50<175 346>
 VStem: 75 100<-240 155 205 320 370 536> 346 100<-240 155 205 320 370 536>
-AnchorPoint: "Dot below" 266 -232 basechar 0
-AnchorPoint: "TopRight" 519 536 basechar 0
-AnchorPoint: "Umlaut" 259 536 basechar 0
+AnchorPoint: "bottom" 266 -232 basechar 0
+AnchorPoint: "topright" 519 536 basechar 0
+AnchorPoint: "top" 259 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1863,9 +1863,9 @@ Width: 573
 Flags: W
 HStem: -10 50<237.965 378.751> 445 50<236.369 367.156>
 VStem: 55 99<140.408 346.933> 368 100<484 714> 431 87<94.5825 144.182>
-AnchorPoint: "Dot below" 304 0 basechar 0
-AnchorPoint: "TopRight" 573 714 basechar 0
-AnchorPoint: "Umlaut" 361 702 basechar 0
+AnchorPoint: "bottom" 304 0 basechar 0
+AnchorPoint: "topright" 573 714 basechar 0
+AnchorPoint: "top" 361 702 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1892,9 +1892,9 @@ Width: 707
 Flags: W
 HStem: 0 50<175 532>
 VStem: 75 100<121 536> 532 100<50 407>
-AnchorPoint: "Dot below" 372 0 basechar 0
-AnchorPoint: "TopRight" 707 536 basechar 0
-AnchorPoint: "Umlaut" 374 536.4 basechar 0
+AnchorPoint: "bottom" 372 0 basechar 0
+AnchorPoint: "topright" 707 536 basechar 0
+AnchorPoint: "top" 374 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1919,9 +1919,9 @@ Width: 696
 Flags: W
 HStem: -240 50<387 481.6> 496 50<214.4 309>
 VStem: 55 100<283.241 422.772> 541 100<-116.772 22.759>
-AnchorPoint: "Dot below" 359 -234 basechar 0
-AnchorPoint: "TopRight" 695 536 basechar 0
-AnchorPoint: "Umlaut" 381 536 basechar 0
+AnchorPoint: "bottom" 359 -234 basechar 0
+AnchorPoint: "topright" 695 536 basechar 0
+AnchorPoint: "top" 381 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1952,9 +1952,9 @@ Encoding: 67037 67037 45
 Width: 386
 Flags: W
 VStem: 65 100<369.317 536> 241 100<181.755 283.864>
-AnchorPoint: "Dot below" 151 -11 basechar 0
-AnchorPoint: "TopRight" 386 536 basechar 0
-AnchorPoint: "Umlaut" 150 536.4 basechar 0
+AnchorPoint: "bottom" 151 -11 basechar 0
+AnchorPoint: "topright" 386 536 basechar 0
+AnchorPoint: "top" 150 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1977,9 +1977,9 @@ Width: 460
 Flags: W
 HStem: -240 50<27.5334 61.5266> 168 50<175 257.006> 496 50<175 255.331>
 VStem: 75 100<-172.826 168 218 496> 310 100<279.748 443.817>
-AnchorPoint: "Dot below" 173 -220 basechar 0
-AnchorPoint: "TopRight" 459 536 basechar 0
-AnchorPoint: "Umlaut" 199 536 basechar 0
+AnchorPoint: "bottom" 173 -220 basechar 0
+AnchorPoint: "topright" 459 536 basechar 0
+AnchorPoint: "top" 199 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2006,9 +2006,9 @@ Width: 472
 Flags: W
 HStem: -10 48<175.328 303.12> 499 46<174.851 296.441>
 VStem: 55 93.1953<63.8714 181.161> 76 72<424.089 470.818> 315.788 94.2119<367.246 479.948> 354 63<89.9819 129.368>
-AnchorPoint: "Dot below" 247 0 basechar 0
-AnchorPoint: "TopRight" 472 536 basechar 0
-AnchorPoint: "Umlaut" 250 536 basechar 0
+AnchorPoint: "bottom" 247 0 basechar 0
+AnchorPoint: "topright" 472 536 basechar 0
+AnchorPoint: "top" 250 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2037,9 +2037,9 @@ Width: 536
 Flags: W
 HStem: 0 21G<30 101.583 379.667 506> 674 50<230.359 321.673>
 VStem: 125 84<486.967 652.759> 352 50<477.598 643.202>
-AnchorPoint: "Dot below" 253 13 basechar 0
-AnchorPoint: "TopRight" 536 714 basechar 0
-AnchorPoint: "Umlaut" 272 713 basechar 0
+AnchorPoint: "bottom" 253 13 basechar 0
+AnchorPoint: "topright" 536 714 basechar 0
+AnchorPoint: "top" 272 713 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2079,9 +2079,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: 0 21G<30 101.583 379.667 506 455.518 505.518> 674 50<230.359 321.673>
 VStem: 125 84<486.967 652.759> 352 50<477.598 643.202> 455.518 50<0 512.881>
-AnchorPoint: "Dot below" 253 13 basechar 0
-AnchorPoint: "TopRight" 581 714 basechar 0
-AnchorPoint: "Umlaut" 270 714 basechar 0
+AnchorPoint: "bottom" 253 13 basechar 0
+AnchorPoint: "topright" 581 714 basechar 0
+AnchorPoint: "top" 270 714 basechar 0
 LayerCount: 2
 Fore
 Refer: 50 -1 N 1 0 0 1 -25 0 2
@@ -2113,9 +2113,9 @@ Width: 415
 Flags: W
 HStem: 0 21G<240 340> 224 50<162.193 240> 674 50<145.767 217.629>
 VStem: 55 50<352.245 615.726> 240 100<0 224 274 651.04>
-AnchorPoint: "Dot below" 232 -2 basechar 0
-AnchorPoint: "TopRight" 415 714 basechar 0
-AnchorPoint: "Umlaut" 203 709 basechar 0
+AnchorPoint: "bottom" 232 -2 basechar 0
+AnchorPoint: "topright" 415 714 basechar 0
+AnchorPoint: "top" 203 709 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2158,9 +2158,9 @@ Width: 502
 Flags: W
 HStem: -14 50<213.492 277.078> 216 77<85.1496 141.812> 674 50<189.561 319.589>
 VStem: 106 44<610.155 634.602> 158.975 49.025<40.1496 160.93> 281 50.037<38.6721 129.128> 362 100<464.665 630.014>
-AnchorPoint: "Dot below" 249 0 basechar 0
-AnchorPoint: "TopRight" 502 714 basechar 0
-AnchorPoint: "Umlaut" 262 708 basechar 0
+AnchorPoint: "bottom" 249 0 basechar 0
+AnchorPoint: "topright" 502 714 basechar 0
+AnchorPoint: "top" 262 708 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2195,9 +2195,9 @@ Width: 408
 Flags: W
 HStem: -14 50<216.022 280> 674 50<210.609 292.045>
 VStem: 54.9956 100.004<160.202 287.451 334 527.951> 313 50<461.697 653.521>
-AnchorPoint: "Dot below" 257 0 basechar 0
-AnchorPoint: "TopRight" 407 714 basechar 0
-AnchorPoint: "Umlaut" 257 715 basechar 0
+AnchorPoint: "bottom" 257 0 basechar 0
+AnchorPoint: "topright" 407 714 basechar 0
+AnchorPoint: "top" 257 715 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2221,9 +2221,9 @@ Encoding: 67046 67046 55
 Width: 526
 Flags: W
 HStem: 486 50<50 198 252 364>
-AnchorPoint: "Dot below" 183 -224 basechar 0
-AnchorPoint: "TopRight" 526 536 basechar 0
-AnchorPoint: "Umlaut" 262 536 basechar 0
+AnchorPoint: "bottom" 183 -224 basechar 0
+AnchorPoint: "topright" 526 536 basechar 0
+AnchorPoint: "top" 262 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2250,9 +2250,9 @@ Encoding: 67047 67047 56
 Width: 531
 Flags: W
 HStem: 0 50<182 481> 486 50<50 198 252 346>
-AnchorPoint: "Dot below" 276 0 basechar 0
-AnchorPoint: "TopRight" 531 536 basechar 0
-AnchorPoint: "Umlaut" 269 536 basechar 0
+AnchorPoint: "bottom" 276 0 basechar 0
+AnchorPoint: "topright" 531 536 basechar 0
+AnchorPoint: "top" 269 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2283,9 +2283,9 @@ Width: 583
 Flags: W
 HStem: -10 50<134.773 241.631> 246 100<167.514 288>
 VStem: 50 50<75.2174 191.392> 288 100<91.052 229 343 714> 483 50<13.342 170.277>
-AnchorPoint: "Dot below" 294 -102 basechar 0
-AnchorPoint: "TopRight" 583 743 basechar 0
-AnchorPoint: "Umlaut" 340 714 basechar 0
+AnchorPoint: "bottom" 294 -102 basechar 0
+AnchorPoint: "topright" 583 743 basechar 0
+AnchorPoint: "top" 340 714 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2318,9 +2318,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -10 50<134.773 241.631> 246 100<167.514 288>
 VStem: 50 50<75.2174 191.392> 83.0098 100<239.35 714> 288 100<91.052 229 343 714> 483 50<13.342 170.277>
-AnchorPoint: "Dot below" 294 -102 basechar 0
-AnchorPoint: "TopRight" 583 714 basechar 0
-AnchorPoint: "Umlaut" 256 714 basechar 0
+AnchorPoint: "bottom" 294 -102 basechar 0
+AnchorPoint: "topright" 583 714 basechar 0
+AnchorPoint: "top" 256 714 basechar 0
 LayerCount: 2
 Fore
 Refer: 59 -1 N 1 0 0 1 -89 0 2
@@ -2348,9 +2348,9 @@ Width: 577
 Flags: W
 HStem: -10 50<194.939 363.492> 445 50<206.414 336.243> 664 50<205 483>
 VStem: 55 87<94.9109 145.78> 105 100<478 664> 418 99<130.109 344.943>
-AnchorPoint: "Dot below" 274 0 basechar 0
-AnchorPoint: "TopRight" 577 714 basechar 0
-AnchorPoint: "Umlaut" 305 714 basechar 0
+AnchorPoint: "bottom" 274 0 basechar 0
+AnchorPoint: "topright" 577 714 basechar 0
+AnchorPoint: "top" 305 714 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2380,9 +2380,9 @@ Encoding: 67054 67054 61
 Width: 645
 Flags: W
 HStem: 0 21G<263.277 381.723>
-AnchorPoint: "Dot below" 328 0 basechar 0
-AnchorPoint: "TopRight" 645 714 basechar 0
-AnchorPoint: "Umlaut" 362 714 basechar 0
+AnchorPoint: "bottom" 328 0 basechar 0
+AnchorPoint: "topright" 645 714 basechar 0
+AnchorPoint: "top" 362 714 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2412,9 +2412,9 @@ Width: 689
 Flags: W
 HStem: 0 21G<149 321.803> 599 50<410.259 442.536> 674 50<154.675 232>
 VStem: 25 100<513.494 644.358> 149 100<75 436> 360 50<538.844 598.404> 447 50<410.723 483.212 532 596.932> 626 48<584.817 601.896>
-AnchorPoint: "Dot below" 231 1 basechar 0
-AnchorPoint: "TopRight" 689 714 basechar 0
-AnchorPoint: "Umlaut" 340 714 basechar 0
+AnchorPoint: "bottom" 231 1 basechar 0
+AnchorPoint: "topright" 689 714 basechar 0
+AnchorPoint: "top" 340 714 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2449,9 +2449,9 @@ Width: 579
 Flags: W
 HStem: -10 50<185.447 357.101> 674 50<264.843 333.922>
 VStem: 50 49<153.144 206> 169 88<559.166 668.099> 341 50<543.28 667.373> 418 101<113.69 297.258>
-AnchorPoint: "Dot below" 294 0 basechar 0
-AnchorPoint: "TopRight" 579 714 basechar 0
-AnchorPoint: "Umlaut" 279 710 basechar 0
+AnchorPoint: "bottom" 294 0 basechar 0
+AnchorPoint: "topright" 579 714 basechar 0
+AnchorPoint: "top" 279 710 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2492,9 +2492,9 @@ Width: 535
 Flags: W
 HStem: -10 50<186.222 352.058> 496 50<199.991 335.01>
 VStem: 50 100<75.7921 192.771> 70.5908 100<364.43 467.08> 358.245 100<353.638 472.557> 385.998 100<71.9682 171.925>
-AnchorPoint: "Dot below" 272 0 basechar 0
-AnchorPoint: "TopRight" 535 536 basechar 0
-AnchorPoint: "Umlaut" 262 536.4 basechar 0
+AnchorPoint: "bottom" 272 0 basechar 0
+AnchorPoint: "topright" 535 536 basechar 0
+AnchorPoint: "top" 262 536.4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2531,9 +2531,9 @@ Width: 707
 Flags: W
 HStem: -270 50<246.499 435.974> 0 50<175 532>
 VStem: 75 100<121 536> 100 87<-157.879 -108.063> 532 100<-135.013 0 50 407>
-AnchorPoint: "Dot below" 328 -256 basechar 0
-AnchorPoint: "TopRight" 707 536 basechar 0
-AnchorPoint: "Umlaut" 366 537 basechar 0
+AnchorPoint: "bottom" 328 -256 basechar 0
+AnchorPoint: "topright" 707 536 basechar 0
+AnchorPoint: "top" 366 537 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2565,9 +2565,9 @@ Encoding: 67057 67057 66
 Width: 549
 Flags: W
 HStem: 0 21G<40 107.98 388.532 509>
-AnchorPoint: "Dot below" 269 0 basechar 0
-AnchorPoint: "TopRight" 549 714 basechar 0
-AnchorPoint: "Umlaut" 288 714 basechar 0
+AnchorPoint: "bottom" 269 0 basechar 0
+AnchorPoint: "topright" 549 714 basechar 0
+AnchorPoint: "top" 288 714 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2593,9 +2593,9 @@ Width: 0
 Flags: W
 HStem: 606 160
 VStem: -430 194
-AnchorPoint: "Umlaut mark" -333 766 basemark 0
-AnchorPoint: "Umlaut mark" -333 536 mark 0
-AnchorPoint: "Umlaut" -333 536 mark 0
+AnchorPoint: "top mark" -333 766 basemark 0
+AnchorPoint: "top mark" -333 536 mark 0
+AnchorPoint: "top" -333 536 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2634,9 +2634,9 @@ Width: 0
 Flags: W
 HStem: 606 160
 VStem: -302 194
-AnchorPoint: "Umlaut mark" -245 766 basemark 0
-AnchorPoint: "Umlaut mark" -245 536 mark 0
-AnchorPoint: "Umlaut" -245 536 mark 0
+AnchorPoint: "top mark" -245 766 basemark 0
+AnchorPoint: "top mark" -245 536 mark 0
+AnchorPoint: "top" -245 536 mark 0
 LayerCount: 2
 Fore
 Refer: 68 180 N 1 0 0 1 -342 0 2
@@ -2665,9 +2665,9 @@ Width: 0
 Flags: W
 HStem: 638 124<-282.545 -189.622>
 VStem: -293 114<648.072 752.095>
-AnchorPoint: "Umlaut mark" -236 760 basemark 0
-AnchorPoint: "Umlaut mark" -236 536 mark 0
-AnchorPoint: "Umlaut" -236 536 mark 0
+AnchorPoint: "top mark" -236 760 basemark 0
+AnchorPoint: "top mark" -236 536 mark 0
+AnchorPoint: "top" -236 536 mark 0
 LayerCount: 2
 Fore
 Refer: 70 729 N 1 0 0 1 -333 2 2
@@ -2695,9 +2695,9 @@ Encoding: 785 785 73
 Width: 0
 HStem: 674 69<-67.4259 68.0778>
 VStem: -140 46<606 647.7> 94 46<606 648.025>
-AnchorPoint: "Umlaut mark" 0 743 basemark 0
-AnchorPoint: "Umlaut mark" 0 536 mark 0
-AnchorPoint: "Umlaut" 0 536 mark 0
+AnchorPoint: "top mark" 0 743 basemark 0
+AnchorPoint: "top mark" 0 536 mark 0
+AnchorPoint: "top" 0 536 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2717,8 +2717,8 @@ Encoding: 862 862 74
 Width: 0
 GlyphClass: 4
 HStem: 606 59<-295 295>
-AnchorPoint: "Umlaut mark" 0 665 basemark 0
-AnchorPoint: "TopRight" 0 536 mark 0
+AnchorPoint: "top mark" 0 665 basemark 0
+AnchorPoint: "topright" 0 536 mark 0
 LayerCount: 2
 Fore
 SplineSet
