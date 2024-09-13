@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: Noto Serif Todhri
+FontName: NotoSerifTodhri
 FullName: Noto Serif Todhri
 FamilyName: Noto Serif Todhri
 Weight: Regular
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1631732133
-ModificationTime: 1723636471
+ModificationTime: 1726221578
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -763,7 +763,7 @@ ShortTable: cvt  33
   100
   49
 EndShort
-LangName: 1033
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license also available with a FAQ at: https://www.openfontlicense.org/" "https://www.openfontlicense.org/"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
 Compacted: 1
