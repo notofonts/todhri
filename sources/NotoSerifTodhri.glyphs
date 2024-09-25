@@ -4305,6 +4305,6 @@ value = "Mikhail Merkuryev";
 }
 );
 unitsPerEm = 1024;
-versionMajor = 2;
-versionMinor = 705;
+versionMajor = 1;
+versionMinor = 0;
 }
