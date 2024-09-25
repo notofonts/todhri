@@ -1,6 +1,7 @@
 googleFonts: true
 sources:
-- NotoSerifTodhri-Regular.designspace
+#- NotoSerifTodhri-Regular.designspace
+- NotoSerifTodhri.glyphs
 familyName: Noto Serif Todhri
 recipeProvider: noto
 removeOutlineOverlaps: false
