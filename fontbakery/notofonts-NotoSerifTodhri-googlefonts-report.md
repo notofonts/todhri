@@ -10,44 +10,8 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[16] NotoSerifTodhri-Regular.ttf</summary>
+<details><summary>[10] NotoSerifTodhri-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach acutecomb to J</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni0237</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
     <div>
@@ -65,118 +29,6 @@ fontbakery version: 0.12.10
 
 * 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
  [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
- [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check that texts shape as per expectation <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>qa/shaping_tests/example.json: Expected and actual shaping not matching</p>
-<ul>
-<li>
-<p>Shaping did not match: ๰</p>
-<pre><code>Expected: None
-Got     : .notdef=0+512
-</code></pre>
-<p>Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -293 512 1362" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g0" d="M51.0,-200.0L51.0,800.0L461.0,800.0L461.0,-200.0L51.0,-200.0ZM102.0,-149.0L410.0,-149.0L410.0,749.0L102.0,749.0L102.0,-149.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g0"/> </g> </svg></p>
-</li>
-</ul>
- [code: shaping-regression]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0305
-
-- uni0306
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni0311
-
-- uni0326
-
-- uni0327
-
-- uni0328
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-dblmacroncomb (U+035E), diaeresiscomb (U+0308) and dotabovecomb (U+0307)</p>
- [code: spacing-mark-glyphs]
 
 
 
@@ -230,7 +82,7 @@ dblmacroncomb (U+035E), diaeresiscomb (U+0308) and dotabovecomb (U+0307)</p>
 
 * ⚠️ **WARN** <p>The most common width is 559 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:</p>
-<p>Width = 310:
+<p>Width = 579:
 minus</p>
  [code: width-outliers]
 
@@ -279,20 +131,20 @@ definitions.</p>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, elbasan, gothic, glagolitic, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: math, coptic, gothic, elbasan, glagolitic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, malayalam, old-permic, tai-le, syriac, canadian-aboriginal, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, math, malayalam, coptic, syriac, old-permic, canadian-aboriginal, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+035E COMBINING DOUBLE MACRON: try adding coptic</li>
 <li>U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: masaram-gondi, batak, newa, coptic, psalter-pahlavi, cham, tagalog, hebrew, rejang, buhid, soyombo, devanagari, kannada, brahmi, symbols, kayah-li, miao, osage, telugu, hanifi-rohingya, lao, limbu, kaithi, syloti-nagri, modi, caucasian-albanian, siddham, tibetan, javanese, takri, tirhuta, elbasan, music, thaana, phags-pa, khmer, tai-le, manichaean, malayalam, sinhala, bengali, lepcha, tai-viet, meetei-mayek, nko, bhaiksuki, wancho, buginese, khojki, sharada, old-permic, bassa-vah, gunjala-gondi, warang-citi, oriya, mandaic, sundanese, chakma, myanmar, marchen, hanunoo, duployan, syriac, gujarati, tamil, balinese, kharoshthi, mahajani, ahom, tagbanwa, grantha, adlam, tai-tham, thai, sogdian, armenian, yi, dogra, tifinagh, canadian-aboriginal, new-tai-lue, pahawh-hmong, saurashtra, khudawadi, mende-kikakui, zanabazar-square, gurmukhi, mongolian, math</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: yi, sundanese, limbu, marchen, malayalam, kannada, phags-pa, bassa-vah, devanagari, tai-viet, khudawadi, kayah-li, miao, gurmukhi, hanifi-rohingya, grantha, nko, syriac, telugu, tirhuta, tifinagh, kaithi, mongolian, balinese, coptic, manichaean, new-tai-lue, pahawh-hmong, thai, khojki, dogra, hebrew, syloti-nagri, masaram-gondi, rejang, zanabazar-square, tai-tham, buhid, warang-citi, lao, math, khmer, mahajani, batak, duployan, mende-kikakui, tai-le, modi, tagalog, chakma, gujarati, kharoshthi, sinhala, tagbanwa, canadian-aboriginal, tibetan, ahom, mandaic, saurashtra, old-permic, thaana, newa, sogdian, osage, adlam, tamil, siddham, meetei-mayek, takri, myanmar, armenian, elbasan, lepcha, bengali, psalter-pahlavi, caucasian-albanian, hanunoo, gunjala-gondi, buginese, symbols, soyombo, wancho, music, bhaiksuki, oriya, javanese, cham, brahmi, sharada</li>
 <li>U+105C0 : not included in any glyphset definition</li>
 <li>U+105C1 : not included in any glyphset definition</li>
 <li>U+105C2 : not included in any glyphset definition</li>
@@ -366,8 +218,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ȋ ị̇ ị̑ i̦̇ ȋ̦ i̧̇ ȋ̧ j̇ j̣̇ j̣̈ j̣̑ j̦̇ j̦̈ j̦̑ j̧̇ j̧̈ j̧̑ j̨̇ j̨̈</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Mundani (Latn, 34,000 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Yala (Latn, 200,000 speakers), Bafut (Latn, 158,146 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Vute (Latn, 21,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), Dutch (Latn, 31,709,104 speakers), South Central Banda (Latn, 244,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mfumte (Latn, 79,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Zapotec (Latn, 490,000 speakers), Gulay (Latn, 250,478 speakers), Sar (Latn, 500,000 speakers), Dii (Latn, 71,000 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Makaa (Latn, 221,000 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nzakara (Latn, 50,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Kom (Latn, 360,685 speakers), Navajo (Latn, 166,319 speakers), Gulay (Latn, 250,478 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Makaa (Latn, 221,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Vute (Latn, 21,000 speakers), Sar (Latn, 500,000 speakers), Koonzime (Latn, 40,000 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Fur (Latn, 1,230,163 speakers), Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Mango (Latn, 77,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
  [code: soft-dotted]
 
 
@@ -816,24 +668,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
- [code: unknown]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -844,8 +678,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 5 | 11 | 117 | 6 | 112 | 0 | 
-| 0% | 0% | 2% | 4% | 47% | 2% | 45% | 0% | 
+| 0 | 0 | 1 | 9 | 117 | 6 | 118 | 0 | 
+| 0% | 0% | 0% | 4% | 47% | 2% | 47% | 0% | 
 
 
 
